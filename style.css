@@ -6,8 +6,11 @@
 nav a {
   text-decoration: none;
   color: black;
-  font-size: 12px;
   text-transform: uppercase;
+}
+
+.navbar-nav {
+  font-size: 12px;
 }
 
 nav a:hover {
