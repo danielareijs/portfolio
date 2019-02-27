@@ -1,9 +1,16 @@
-.navigation {
-  background-color: white;
-  opacity: 0.5;
+body {
+  background-image: url("./images/navBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-nav a {
+.navigation {
+  background-color: white;
+  opacity: 0.8;
+  margin-top: -8px;
+}
+
+.navigation a {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
@@ -13,6 +20,18 @@ nav a {
   font-size: 12px;
 }
 
-nav a:hover {
+.navigation a:hover {
   color: gray;
+}
+
+.danielareijs {
+  text-align: center;
+  margin-top: 250px;
+  color: white;
+  padding: 50px;
+  border: 1px solid white;
+}
+
+.danielareijs p {
+  font-size: 25px;
 }
