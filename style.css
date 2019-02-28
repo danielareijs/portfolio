@@ -1,13 +1,8 @@
-body {
-  background-image: url("./images/navBackground.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 
 .navigation {
   background-color: white;
-  opacity: 0.8;
-  margin-top: -8px;
+  margin-top: -10px;
+  z-index: 100;
 }
 
 .navigation a {
@@ -24,14 +19,53 @@ body {
   color: gray;
 }
 
+.main-container {
+  top: 0;
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  min-height: 750px;
+  background-image: url("./images/navBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .danielareijs {
   text-align: center;
+  background: white;
+  opacity: 0.7;
   margin-top: 250px;
-  color: white;
+  color: black;
   padding: 50px;
-  border: 1px solid white;
+  border: 2px solid white;
+  /* position: relative;
+  z-index: 1; /*
 }
 
 .danielareijs p {
   font-size: 25px;
+}
+
+.border-white {
+  border: 2 solid white;
+  margin: 5px;
+}
+
+.container {
+  max-width: 80%;
+  margin-top: 50px;
+}
+
+.about {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.about h1 {
+  font-size: 15px;
+}
+
+.selfie {
+  max-width: 50%;
+  border-radius: 30px;
 }
