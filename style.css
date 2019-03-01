@@ -1,8 +1,11 @@
 
-.navigation {
+.navbar {
   background-color: white;
-  margin-top: -10px;
-  z-index: 100;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100 !important;
 }
 
 .navigation a {
@@ -38,12 +41,14 @@
   color: black;
   padding: 50px;
   border: 2px solid white;
-  /* position: relative;
-  z-index: 1; */
 }
 
 .danielareijs p {
   font-size: 25px;
+}
+
+.main-content {
+  width: 95%;
 }
 
 .border-white {
@@ -52,20 +57,25 @@
 }
 
 .container {
-  max-width: 80%;
+  max-width: 90%;
   margin-top: 50px;
 }
 
-.about {
-  max-width: 75%;
-  margin: 0 auto;
+@media only screen and (min-width: 900px) {
+  .container {
+    max-width: 65%;
+  }
 }
 
-.about h1 {
+h2 {
   font-size: 15px;
 }
 
 .selfie {
-  max-width: 50%;
+  width: 150px;
   border-radius: 30px;
+}
+
+.portfolio {
+  margin-top: 50px;
 }
