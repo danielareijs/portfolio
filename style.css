@@ -51,19 +51,14 @@
   width: 95%;
 }
 
-.border-white {
-  border: 2 solid white;
-  margin: 5px;
-}
-
 .container {
-  max-width: 90%;
   margin-top: 50px;
 }
 
 @media only screen and (min-width: 900px) {
-  .container {
+  .width65 {
     max-width: 65%;
+    margin: 0 auto;
   }
 }
 
@@ -76,6 +71,11 @@ h2 {
   border-radius: 30px;
 }
 
-.portfolio {
+.portfolioHeading {
   margin-top: 50px;
+}
+
+.portfolio {
+  margin: 50px auto;
+  font-size: 12px;
 }
