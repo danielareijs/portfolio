@@ -22,6 +22,11 @@ body {
   font-size: 13px;
 }
 
+.navigation p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
 .navigation a:hover {
   color: #b3b3b3;
 }
@@ -38,11 +43,10 @@ body {
 }
 
 .danielareijs {
-  font-family: 'Oswald', sans-serif;
   text-align: center;
   background: white;
-  opacity: 0.6;
-  margin-top: 250px;
+  opacity: 0.7;
+  margin-top: 270px;
   color: black;
   padding: 50px;
   border: 2px solid white;
@@ -56,7 +60,7 @@ body {
 }
 
 .danielareijs p {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .main-content {
@@ -103,7 +107,7 @@ footer p {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .danielareijs h1 {
     font-size: 30px;
   }
@@ -113,7 +117,7 @@ footer p {
   }
 }
 
-@media only screen and (min-width: 960px) {
+@media screen and (min-width: 960px) {
   .w-lg-70 {
     max-width: 70%;
     margin: 0 auto;
