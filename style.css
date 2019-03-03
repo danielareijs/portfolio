@@ -1,3 +1,6 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
 
 .navbar {
   background-color: white;
@@ -6,6 +9,7 @@
   position: fixed;
   width: 100%;
   z-index: 100 !important;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 .navigation a {
@@ -15,11 +19,11 @@
 }
 
 .navbar-nav {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .navigation a:hover {
-  color: gray;
+  color: #b3b3b3;
 }
 
 .main-container {
@@ -27,24 +31,32 @@
   text-align: center;
   z-index: -1;
   width: 100%;
-  min-height: 750px;
+  min-height: 800px;
   background-image: url("./images/navBackground.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .danielareijs {
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   background: white;
-  opacity: 0.7;
+  opacity: 0.6;
   margin-top: 250px;
   color: black;
   padding: 50px;
   border: 2px solid white;
+  font-weight: 300;
+}
+
+.danielareijs h1 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 50px;
 }
 
 .danielareijs p {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 .main-content {
@@ -53,13 +65,6 @@
 
 .container {
   margin-top: 70px;
-}
-
-@media only screen and (min-width: 900px) {
-  .width65 {
-    max-width: 65%;
-    margin: 0 auto;
-  }
 }
 
 h2 {
@@ -77,5 +82,40 @@ h2 {
 
 .portfolioLink {
   margin: 50px auto;
-  font-size: 12px;
+  font-size: 13px;
+  width: 90%;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 600px) {
+  .danielareijs h1 {
+    font-size: 30px;
+  }
+
+  .danielareijs p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .w-lg-70 {
+    max-width: 70%;
+    margin: 0 auto;
+  }
 }
